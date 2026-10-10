@@ -6,7 +6,7 @@ header("Pragma: no-cache");
 
 session_start();
 
-// PROTECT PAGE: Redirect sa login kapag walang active session
+
 if (!isset($_SESSION['user_id'])) {
     header('Location: login.php');
     exit;
