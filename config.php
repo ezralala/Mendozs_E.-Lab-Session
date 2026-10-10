@@ -45,3 +45,5 @@ function seedUser($conn, $username, $plainPassword) {
 // Seed default users
 seedUser($conn, 'Ezralala', 'ezrasabina17');
 ?>
+
+<!-- http://localhost/WST%20Activity/Mendoza%20E.%20Lab_Session/login.php -->
